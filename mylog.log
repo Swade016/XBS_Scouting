@@ -1,0 +1,362 @@
+2019-09-19 23:37:15,946 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-19 23:37:16,014 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-19 23:37:17,283 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-19 23:37:17,287 - root - INFO - Success!
+2019-09-19 23:37:18,274 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-19 23:37:18,281 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-19 23:37:19,064 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-19 23:37:19,069 - root - INFO - Success!
+2019-09-19 23:37:19,189 - root - WARNING - Failed to convert
+2019-09-19 23:37:22,559 - root - INFO - Found 411 players
+2019-09-19 23:37:39,734 - root - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-19 23:37:39,734 - root - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-19 23:37:39,734 - root - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-19 23:37:39,734 - root - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-19 23:37:42,773 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-19 23:37:42,790 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-19 23:37:43,600 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-19 23:37:43,615 - root - INFO - Success!
+2019-09-19 23:37:44,421 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-19 23:37:44,424 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-19 23:37:45,241 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-19 23:37:45,244 - root - INFO - Success!
+2019-09-19 23:37:45,357 - root - WARNING - Failed to convert
+2019-09-19 23:37:48,657 - root - INFO - Found 411 players
+2019-09-19 23:37:49,089 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center
+2019-09-19 23:37:49,092 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-19 23:37:50,155 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center HTTP/1.1" 200 None
+2019-09-19 23:37:50,158 - root - INFO - Success!
+2019-09-19 23:37:50,276 - root - INFO - Tag #1 - Length = 3
+2019-09-19 23:37:50,276 - root - INFO - Row Length = 1
+2019-09-19 23:37:50,276 - root - INFO - ['Center Statistics']
+2019-09-19 23:37:50,276 - root - INFO - Tag #3 - Length = 35
+2019-09-19 23:37:50,276 - root - INFO - Row Length = 1
+2019-09-19 23:37:50,276 - root - INFO - ['Season']
+2019-09-19 23:37:50,276 - root - INFO - Not Eligible
+2019-09-19 23:37:50,276 - root - INFO - Tag #5 - Length = 3
+2019-09-19 23:37:50,276 - root - INFO - Row Length = 0
+2019-09-19 23:37:50,276 - root - INFO - []
+2019-09-19 23:37:50,276 - root - INFO - Not Eligible
+2019-09-19 23:37:50,276 - root - INFO - Tag #7 - Length = 2
+2019-09-19 23:37:50,276 - root - INFO - Row Length = 21
+2019-09-19 23:37:50,277 - root - INFO - ['', '', 'Season 18', 'Calgary', '', '19', '22', '34', '56', '21', '34', '61', '4', '50.4', '+24', '0.84', '13', '3', '3', '.763', '$7,750,000']
+2019-09-19 23:37:50,277 - root - INFO - Season Eligible
+2019-09-19 23:37:50,283 - root - INFO - <Player.SeasonStats object at 0x11dc64ac8>
+2019-09-19 23:37:50,284 - root - INFO - Tag #9 - Length = 3
+2019-09-19 23:37:50,284 - root - INFO - Row Length = 19
+2019-09-19 23:37:50,284 - root - INFO - ['', '', ' Playoffs', '1', '1', '1', '2', '5', '1', '7', '0', '39.4', '-3', '-1.00', '0', '1', '0', '.000', '---']
+2019-09-19 23:37:50,284 - root - INFO - Playoff Eligible
+2019-09-19 23:37:50,290 - root - INFO - <Player.SeasonStats object at 0x11dc64ac8>
+2019-09-19 23:37:50,290 - root - INFO - Tag #10 - Length = 2
+2019-09-19 23:37:50,290 - root - INFO - Row Length = 21
+2019-09-19 23:37:50,290 - root - INFO - ['', '', 'Season 17', 'Tampa Bay, Arizona', '', '15', '8', '18', '26', '22', '16', '39', '1', '47.4', '-11', '-2.20', '5', '10', '0', '.333', '$7,500,000']
+2019-09-19 23:37:50,290 - root - INFO - Season Eligible
+2019-09-19 23:37:50,296 - root - INFO - <Player.SeasonStats object at 0x11dc64ac8>
+2019-09-19 23:37:50,296 - root - INFO - Tag #12 - Length = 5
+2019-09-19 23:37:50,296 - root - INFO - Row Length = 19
+2019-09-19 23:37:50,297 - root - INFO - ['', '', 'Tampa Bay', '3', '2', '3', '5', '2', '2', '5', '1', '50.5', '-3', '-7.33', '1', '2', '0', '.333', '---']
+2019-09-19 23:37:50,297 - root - INFO - Not Eligible
+2019-09-19 23:37:50,297 - root - INFO - Tag #13 - Length = 2
+2019-09-19 23:37:50,297 - root - INFO - Row Length = 21
+2019-09-19 23:37:50,297 - root - INFO - ['', '', 'Season 14', 'Calgary', '', '1', '0', '0', '0', '2', '2', '6', '0', '29.0', '-2', '-2.00', '0', '1', '0', '.000', '$4,250,000']
+2019-09-19 23:37:50,297 - root - INFO - Season Eligible
+2019-09-19 23:37:50,303 - root - INFO - <Player.SeasonStats object at 0x11dc64ac8>
+2019-09-19 23:37:50,303 - root - INFO - Tag #14 - Length = 2
+2019-09-19 23:37:50,303 - root - INFO - Row Length = 21
+2019-09-19 23:37:50,303 - root - INFO - ['', '', 'Season 12', 'Anaheim', '', '7', '7', '9', '16', '25', '44', '38', '1', '32.0', '-7', '-6.57', '1', '4', '2', '.286', '$2,250,000']
+2019-09-19 23:37:50,303 - root - INFO - Season Eligible
+2019-09-19 23:37:50,309 - root - INFO - <Player.SeasonStats object at 0x11dc64ac8>
+2019-09-19 23:37:50,309 - root - INFO - Tag #15 - Length = 2
+2019-09-19 23:37:50,309 - root - INFO - Row Length = 21
+2019-09-19 23:37:50,309 - root - INFO - ['', '', 'Season 10', 'Tampa Bay, Philadelphia', '', '1', '1', '0', '1', '0', '0', '7', '0', '16.2', '-1', '-20.00', '0', '1', '0', '.000', '$2,000,000']
+2019-09-19 23:37:50,309 - root - INFO - Season Eligible
+2019-09-19 23:37:50,315 - root - INFO - <Player.SeasonStats object at 0x11dc64ac8>
+2019-09-19 23:37:50,315 - root - INFO - Tag #17 - Length = 3
+2019-09-19 23:37:50,315 - root - INFO - Row Length = 19
+2019-09-19 23:37:50,315 - root - INFO - ['', '', 'Philadelphia', '1', '1', '0', '1', '0', '0', '7', '0', '16.2', '-1', '-20.00', '0', '1', '0', '.000', '$2,000,000']
+2019-09-19 23:37:50,315 - root - INFO - Not Eligible
+2019-09-19 23:37:50,316 - root - INFO - Tag #18 - Length = 2
+2019-09-19 23:37:50,316 - root - INFO - Row Length = 21
+2019-09-19 23:37:50,316 - root - INFO - ['', '', 'Season 9', 'Vancouver', '', '1', '2', '2', '4', '5', '2', '7', '0', '38.2', '-3', '4.00', '0', '1', '0', '.000', '$4,500,000']
+2019-09-19 23:37:50,316 - root - INFO - Season Eligible
+2019-09-19 23:37:50,322 - root - INFO - <Player.SeasonStats object at 0x11dc64ac8>
+2019-09-19 23:37:50,322 - root - INFO - Tag #20 - Length = 3
+2019-09-19 23:37:50,322 - root - INFO - Row Length = 19
+2019-09-19 23:37:50,322 - root - INFO - ['', '', 'Vancouver', '1', '2', '2', '4', '5', '2', '7', '0', '38.2', '-3', '4.00', '0', '1', '0', '.000', '$4,500,000']
+2019-09-19 23:37:50,322 - root - INFO - Not Eligible
+2019-09-19 23:37:50,322 - root - INFO - Tag #22 - Length = 35
+2019-09-19 23:37:50,322 - root - INFO - Row Length = 2
+2019-09-19 23:37:50,322 - root - INFO - ['', ' Career']
+2019-09-19 23:37:50,322 - root - INFO - Not Eligible
+2019-09-19 23:37:50,322 - root - INFO - Tag #24 - Length = 35
+2019-09-19 23:37:50,322 - root - INFO - Row Length = 2
+2019-09-19 23:37:50,322 - root - INFO - ['', ' Playoffs']
+2019-09-19 23:37:50,322 - root - INFO - Not Eligible
+2019-09-19 23:56:45,193 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-19 23:56:45,233 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-19 23:56:45,984 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-19 23:56:46,000 - root - INFO - Success!
+2019-09-19 23:56:46,929 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-19 23:56:46,932 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-19 23:56:47,744 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-19 23:56:47,755 - root - INFO - Success!
+2019-09-19 23:56:47,870 - root - WARNING - Failed to convert
+2019-09-19 23:56:51,030 - root - INFO - Found 411 players
+2019-09-19 23:56:51,725 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center
+2019-09-19 23:56:51,729 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-19 23:56:52,942 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center HTTP/1.1" 200 None
+2019-09-19 23:56:52,946 - root - INFO - Success!
+2019-09-19 23:56:53,065 - root - INFO - Tag #1 - Length = 3
+2019-09-19 23:56:53,065 - root - INFO - Row Length = 1
+2019-09-19 23:56:53,065 - root - INFO - ['Center Statistics']
+2019-09-19 23:56:53,065 - root - INFO - Tag #3 - Length = 35
+2019-09-19 23:56:53,065 - root - INFO - Row Length = 1
+2019-09-19 23:56:53,065 - root - INFO - ['Season']
+2019-09-19 23:56:53,065 - root - INFO - Not Eligible
+2019-09-19 23:56:53,065 - root - INFO - Tag #5 - Length = 3
+2019-09-19 23:56:53,065 - root - INFO - Row Length = 0
+2019-09-19 23:56:53,065 - root - INFO - []
+2019-09-19 23:56:53,065 - root - INFO - Not Eligible
+2019-09-19 23:56:53,065 - root - INFO - Tag #7 - Length = 2
+2019-09-19 23:56:53,065 - root - INFO - Row Length = 21
+2019-09-19 23:56:53,065 - root - INFO - ['', '', 'Season 18', 'Calgary', '', '19', '22', '34', '56', '21', '34', '61', '4', '50.4', '+24', '0.84', '13', '3', '3', '.763', '$7,750,000']
+2019-09-19 23:56:53,065 - root - INFO - Season Eligible
+2019-09-20 00:00:14,110 - root - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-20 00:00:14,110 - root - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-20 00:00:14,110 - root - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-20 00:00:14,110 - root - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-20 00:00:17,053 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-20 00:00:17,069 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:00:17,820 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-20 00:00:17,832 - root - INFO - Success!
+2019-09-20 00:00:18,781 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-20 00:00:18,784 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:00:19,822 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-20 00:00:19,823 - root - INFO - Success!
+2019-09-20 00:00:19,933 - root - WARNING - Failed to convert
+2019-09-20 00:00:23,050 - root - INFO - Found 411 players
+2019-09-20 00:00:23,514 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center
+2019-09-20 00:00:23,517 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:00:25,116 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center HTTP/1.1" 200 None
+2019-09-20 00:00:25,119 - root - INFO - Success!
+2019-09-20 00:00:25,237 - root - INFO - Tag #1 - Length = 3
+2019-09-20 00:00:25,237 - root - INFO - Row Length = 1
+2019-09-20 00:00:25,237 - root - INFO - ['Center Statistics']
+2019-09-20 00:00:25,237 - root - INFO - Tag #3 - Length = 35
+2019-09-20 00:00:25,237 - root - INFO - Row Length = 1
+2019-09-20 00:00:25,237 - root - INFO - ['Season']
+2019-09-20 00:00:25,237 - root - INFO - Not Eligible
+2019-09-20 00:00:25,237 - root - INFO - Tag #5 - Length = 3
+2019-09-20 00:00:25,237 - root - INFO - Row Length = 0
+2019-09-20 00:00:25,237 - root - INFO - []
+2019-09-20 00:00:25,237 - root - INFO - Not Eligible
+2019-09-20 00:00:25,237 - root - INFO - Tag #7 - Length = 2
+2019-09-20 00:00:25,237 - root - INFO - Row Length = 21
+2019-09-20 00:00:25,237 - root - INFO - ['', '', 'Season 18', 'Calgary', '', '19', '22', '34', '56', '21', '34', '61', '4', '50.4', '+24', '0.84', '13', '3', '3', '.763', '$7,750,000']
+2019-09-20 00:00:25,237 - root - INFO - Season Eligible
+2019-09-20 00:00:53,872 - root - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-20 00:00:53,872 - root - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-20 00:00:53,873 - root - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-20 00:00:53,873 - root - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-20 00:01:00,263 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-20 00:01:00,278 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:01:01,220 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-20 00:01:01,236 - root - INFO - Success!
+2019-09-20 00:01:02,775 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-20 00:01:02,778 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:01:04,437 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-20 00:01:04,440 - root - INFO - Success!
+2019-09-20 00:01:04,549 - root - WARNING - Failed to convert
+2019-09-20 00:01:07,640 - root - INFO - Found 411 players
+2019-09-20 00:01:12,271 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center
+2019-09-20 00:01:12,274 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:01:13,449 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center HTTP/1.1" 200 None
+2019-09-20 00:01:13,452 - root - INFO - Success!
+2019-09-20 00:01:13,567 - root - INFO - Tag #1 - Length = 3
+2019-09-20 00:01:13,567 - root - INFO - Row Length = 1
+2019-09-20 00:01:13,567 - root - INFO - ['Center Statistics']
+2019-09-20 00:01:13,568 - root - INFO - Tag #3 - Length = 35
+2019-09-20 00:01:13,568 - root - INFO - Row Length = 1
+2019-09-20 00:01:13,568 - root - INFO - ['Season']
+2019-09-20 00:01:13,568 - root - INFO - Not Eligible
+2019-09-20 00:01:13,568 - root - INFO - Tag #5 - Length = 3
+2019-09-20 00:01:13,568 - root - INFO - Row Length = 0
+2019-09-20 00:01:13,568 - root - INFO - []
+2019-09-20 00:01:13,568 - root - INFO - Not Eligible
+2019-09-20 00:01:13,568 - root - INFO - Tag #7 - Length = 2
+2019-09-20 00:01:13,568 - root - INFO - Row Length = 21
+2019-09-20 00:01:13,568 - root - INFO - ['', '', 'Season 18', 'Calgary', '', '19', '22', '34', '56', '21', '34', '61', '4', '50.4', '+24', '0.84', '13', '3', '3', '.763', '$7,750,000']
+2019-09-20 00:01:13,568 - root - INFO - Season Eligible
+2019-09-20 00:01:13,579 - root - INFO - <Player.SeasonStats object at 0x1207f4438>
+2019-09-20 00:01:13,579 - root - INFO - Tag #9 - Length = 3
+2019-09-20 00:01:13,579 - root - INFO - Row Length = 19
+2019-09-20 00:01:13,579 - root - INFO - ['', '', ' Playoffs', '1', '1', '1', '2', '5', '1', '7', '0', '39.4', '-3', '-1.00', '0', '1', '0', '.000', '---']
+2019-09-20 00:01:13,579 - root - INFO - Playoff Eligible
+2019-09-20 00:03:20,024 - root - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-20 00:03:20,025 - root - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-20 00:03:20,025 - root - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-20 00:03:20,025 - root - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-20 00:03:24,718 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-20 00:03:24,771 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:03:25,571 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-20 00:03:25,585 - root - INFO - Success!
+2019-09-20 00:03:26,798 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-20 00:03:26,802 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:03:27,798 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-20 00:03:27,801 - root - INFO - Success!
+2019-09-20 00:03:27,912 - root - WARNING - Failed to convert
+2019-09-20 00:03:31,051 - root - INFO - Found 411 players
+2019-09-20 00:03:31,665 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center
+2019-09-20 00:03:31,668 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:04:19,675 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center
+2019-09-20 00:04:22,686 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:04:23,471 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center HTTP/1.1" 200 None
+2019-09-20 00:04:23,481 - root - INFO - Success!
+2019-09-20 00:04:23,599 - root - INFO - Tag #1 - Length = 3
+2019-09-20 00:04:23,600 - root - INFO - Row Length = 1
+2019-09-20 00:04:23,600 - root - INFO - ['Center Statistics']
+2019-09-20 00:04:23,600 - root - INFO - Tag #3 - Length = 35
+2019-09-20 00:04:23,600 - root - INFO - Row Length = 1
+2019-09-20 00:04:23,600 - root - INFO - ['Season']
+2019-09-20 00:04:23,600 - root - INFO - Not Eligible
+2019-09-20 00:04:23,600 - root - INFO - Tag #5 - Length = 3
+2019-09-20 00:04:23,600 - root - INFO - Row Length = 0
+2019-09-20 00:04:23,600 - root - INFO - []
+2019-09-20 00:04:23,600 - root - INFO - Not Eligible
+2019-09-20 00:04:23,600 - root - INFO - Tag #7 - Length = 2
+2019-09-20 00:04:23,600 - root - INFO - Row Length = 21
+2019-09-20 00:04:23,600 - root - INFO - ['', '', 'Season 18', 'Calgary', '', '19', '22', '34', '56', '21', '34', '61', '4', '50.4', '+24', '0.84', '13', '3', '3', '.763', '$7,750,000']
+2019-09-20 00:04:23,600 - root - INFO - Season Eligible
+2019-09-20 00:04:23,611 - root - INFO - <Player.SeasonStats object at 0x123054630>
+2019-09-20 00:04:23,611 - root - INFO - Tag #9 - Length = 3
+2019-09-20 00:04:23,611 - root - INFO - Row Length = 19
+2019-09-20 00:04:23,611 - root - INFO - ['', '', ' Playoffs', '1', '1', '1', '2', '5', '1', '7', '0', '39.4', '-3', '-1.00', '0', '1', '0', '.000', '---']
+2019-09-20 00:04:23,612 - root - INFO - Playoff Eligible
+2019-09-20 00:04:23,618 - root - INFO - <Player.SeasonStats object at 0x123054630>
+2019-09-20 00:04:23,618 - root - INFO - Tag #10 - Length = 2
+2019-09-20 00:04:23,618 - root - INFO - Row Length = 21
+2019-09-20 00:04:23,618 - root - INFO - ['', '', 'Season 17', 'Tampa Bay, Arizona', '', '15', '8', '18', '26', '22', '16', '39', '1', '47.4', '-11', '-2.20', '5', '10', '0', '.333', '$7,500,000']
+2019-09-20 00:04:23,618 - root - INFO - Season Eligible
+2019-09-20 00:04:23,624 - root - INFO - <Player.SeasonStats object at 0x123054630>
+2019-09-20 00:04:23,624 - root - INFO - Tag #12 - Length = 5
+2019-09-20 00:04:23,624 - root - INFO - Row Length = 19
+2019-09-20 00:04:23,624 - root - INFO - ['', '', 'Tampa Bay', '3', '2', '3', '5', '2', '2', '5', '1', '50.5', '-3', '-7.33', '1', '2', '0', '.333', '---']
+2019-09-20 00:04:23,624 - root - INFO - Not Eligible
+2019-09-20 00:04:23,624 - root - INFO - Tag #13 - Length = 2
+2019-09-20 00:04:23,624 - root - INFO - Row Length = 21
+2019-09-20 00:04:23,624 - root - INFO - ['', '', 'Season 14', 'Calgary', '', '1', '0', '0', '0', '2', '2', '6', '0', '29.0', '-2', '-2.00', '0', '1', '0', '.000', '$4,250,000']
+2019-09-20 00:04:23,624 - root - INFO - Season Eligible
+2019-09-20 00:04:23,630 - root - INFO - <Player.SeasonStats object at 0x123054630>
+2019-09-20 00:04:23,630 - root - INFO - Tag #14 - Length = 2
+2019-09-20 00:04:23,630 - root - INFO - Row Length = 21
+2019-09-20 00:04:23,630 - root - INFO - ['', '', 'Season 12', 'Anaheim', '', '7', '7', '9', '16', '25', '44', '38', '1', '32.0', '-7', '-6.57', '1', '4', '2', '.286', '$2,250,000']
+2019-09-20 00:04:23,630 - root - INFO - Season Eligible
+2019-09-20 00:04:23,636 - root - INFO - <Player.SeasonStats object at 0x123054630>
+2019-09-20 00:04:23,636 - root - INFO - Tag #15 - Length = 2
+2019-09-20 00:04:23,636 - root - INFO - Row Length = 21
+2019-09-20 00:04:23,636 - root - INFO - ['', '', 'Season 10', 'Tampa Bay, Philadelphia', '', '1', '1', '0', '1', '0', '0', '7', '0', '16.2', '-1', '-20.00', '0', '1', '0', '.000', '$2,000,000']
+2019-09-20 00:04:23,636 - root - INFO - Season Eligible
+2019-09-20 00:04:23,642 - root - INFO - <Player.SeasonStats object at 0x123054630>
+2019-09-20 00:04:23,642 - root - INFO - Tag #17 - Length = 3
+2019-09-20 00:04:23,642 - root - INFO - Row Length = 19
+2019-09-20 00:04:23,642 - root - INFO - ['', '', 'Philadelphia', '1', '1', '0', '1', '0', '0', '7', '0', '16.2', '-1', '-20.00', '0', '1', '0', '.000', '$2,000,000']
+2019-09-20 00:04:23,642 - root - INFO - Not Eligible
+2019-09-20 00:04:23,642 - root - INFO - Tag #18 - Length = 2
+2019-09-20 00:04:23,642 - root - INFO - Row Length = 21
+2019-09-20 00:04:23,642 - root - INFO - ['', '', 'Season 9', 'Vancouver', '', '1', '2', '2', '4', '5', '2', '7', '0', '38.2', '-3', '4.00', '0', '1', '0', '.000', '$4,500,000']
+2019-09-20 00:04:23,642 - root - INFO - Season Eligible
+2019-09-20 00:04:23,648 - root - INFO - <Player.SeasonStats object at 0x123054630>
+2019-09-20 00:04:23,649 - root - INFO - Tag #20 - Length = 3
+2019-09-20 00:04:23,649 - root - INFO - Row Length = 19
+2019-09-20 00:04:23,649 - root - INFO - ['', '', 'Vancouver', '1', '2', '2', '4', '5', '2', '7', '0', '38.2', '-3', '4.00', '0', '1', '0', '.000', '$4,500,000']
+2019-09-20 00:04:23,649 - root - INFO - Not Eligible
+2019-09-20 00:04:23,649 - root - INFO - Tag #22 - Length = 35
+2019-09-20 00:04:23,649 - root - INFO - Row Length = 2
+2019-09-20 00:04:23,649 - root - INFO - ['', ' Career']
+2019-09-20 00:04:23,649 - root - INFO - Not Eligible
+2019-09-20 00:04:23,649 - root - INFO - Tag #24 - Length = 35
+2019-09-20 00:04:23,649 - root - INFO - Row Length = 2
+2019-09-20 00:04:23,649 - root - INFO - ['', ' Playoffs']
+2019-09-20 00:04:23,649 - root - INFO - Not Eligible
+2019-09-20 00:07:06,419 - root - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-20 00:07:06,419 - root - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-20 00:07:06,419 - root - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-20 00:07:06,419 - root - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-20 00:07:10,201 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-20 00:07:10,216 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:07:11,296 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-20 00:07:11,301 - root - INFO - Success!
+2019-09-20 00:07:12,257 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-20 00:07:12,260 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:07:13,078 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-20 00:07:13,081 - root - INFO - Success!
+2019-09-20 00:07:13,192 - root - WARNING - Failed to convert
+2019-09-20 00:07:16,322 - root - INFO - Found 411 players
+2019-09-20 00:07:17,252 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center
+2019-09-20 00:07:17,256 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 00:07:19,007 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player&player_id=620&filter_pos=center HTTP/1.1" 200 None
+2019-09-20 00:07:19,028 - root - INFO - Success!
+2019-09-20 00:07:19,158 - root - INFO - Tag #1 - Length = 3
+2019-09-20 00:07:19,158 - root - INFO - Row Length = 1
+2019-09-20 00:07:19,158 - root - INFO - ['Center Statistics']
+2019-09-20 00:07:19,158 - root - INFO - Tag #3 - Length = 35
+2019-09-20 00:07:19,158 - root - INFO - Row Length = 1
+2019-09-20 00:07:19,158 - root - INFO - ['Season']
+2019-09-20 00:07:19,158 - root - INFO - Not Eligible
+2019-09-20 00:07:19,158 - root - INFO - Tag #5 - Length = 3
+2019-09-20 00:07:19,158 - root - INFO - Row Length = 0
+2019-09-20 00:07:19,158 - root - INFO - []
+2019-09-20 00:07:19,158 - root - INFO - Not Eligible
+2019-09-20 00:07:19,158 - root - INFO - Tag #7 - Length = 2
+2019-09-20 00:07:19,158 - root - INFO - Row Length = 21
+2019-09-20 00:07:19,158 - root - INFO - ['', '', 'Season 18', 'Calgary', '', '19', '22', '34', '56', '21', '34', '61', '4', '50.4', '+24', '0.84', '13', '3', '3', '.763', '$7,750,000']
+2019-09-20 00:07:19,158 - root - INFO - Season Eligible
+2019-09-20 00:07:19,174 - root - INFO - <Player.SeasonStats object at 0x119b1ac18>
+2019-09-20 00:07:19,175 - root - INFO - Tag #9 - Length = 3
+2019-09-20 00:07:19,175 - root - INFO - Row Length = 19
+2019-09-20 00:07:19,175 - root - INFO - ['', '', ' Playoffs', '1', '1', '1', '2', '5', '1', '7', '0', '39.4', '-3', '-1.00', '0', '1', '0', '.000', '---']
+2019-09-20 00:07:19,175 - root - INFO - Playoff Eligible
+2019-09-20 00:08:17,209 - root - ERROR - Invalid alias: The name clear can't be aliased because it is another magic command.
+2019-09-20 00:08:17,209 - root - ERROR - Invalid alias: The name more can't be aliased because it is another magic command.
+2019-09-20 00:08:17,209 - root - ERROR - Invalid alias: The name less can't be aliased because it is another magic command.
+2019-09-20 00:08:17,209 - root - ERROR - Invalid alias: The name man can't be aliased because it is another magic command.
+2019-09-20 10:22:47,449 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-20 10:22:47,495 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 10:22:48,582 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-20 10:22:48,620 - root - INFO - Success!
+2019-09-20 10:22:49,545 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-20 10:22:49,547 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 10:22:50,425 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-20 10:22:50,462 - root - INFO - Success!
+2019-09-20 10:22:50,569 - root - WARNING - Failed to convert
+2019-09-20 10:22:52,056 - root - INFO - Found 411 players
+2019-09-20 10:23:34,521 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-20 10:23:34,534 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 10:23:35,483 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-20 10:23:35,537 - root - INFO - Success!
+2019-09-20 10:23:36,154 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-20 10:23:36,156 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 10:23:36,944 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-20 10:23:36,978 - root - INFO - Success!
+2019-09-20 10:23:37,073 - root - WARNING - Failed to convert
+2019-09-20 10:23:38,582 - root - INFO - Found 411 players
+2019-09-20 10:25:35,218 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-20 10:25:35,243 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 10:25:36,069 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-20 10:25:36,108 - root - INFO - Success!
+2019-09-20 10:25:36,810 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-20 10:25:36,812 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 10:25:37,750 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-20 10:25:37,785 - root - INFO - Success!
+2019-09-20 10:25:37,884 - root - WARNING - Failed to convert
+2019-09-20 10:25:39,397 - root - INFO - Found 411 players
+2019-09-20 10:26:30,061 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=league_rosters
+2019-09-20 10:26:30,068 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 10:26:30,998 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=league_rosters HTTP/1.1" 200 None
+2019-09-20 10:26:31,031 - root - INFO - Success!
+2019-09-20 10:26:31,634 - root - INFO - Querying http://xbox-sports.com/leagues/xbshl/index.php?mode=player
+2019-09-20 10:26:31,635 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): xbox-sports.com:80
+2019-09-20 10:26:32,636 - urllib3.connectionpool - DEBUG - http://xbox-sports.com:80 "GET /leagues/xbshl/index.php?mode=player HTTP/1.1" 200 None
+2019-09-20 10:26:32,685 - root - INFO - Success!
+2019-09-20 10:26:32,782 - root - WARNING - Failed to convert
+2019-09-20 10:26:34,284 - root - INFO - Found 411 players
