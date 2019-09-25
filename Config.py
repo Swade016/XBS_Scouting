@@ -51,6 +51,15 @@ class Config:
         except:
             log.warning('Could not find ' + str(player_id))
 
+    @staticmethod
+    def GetGameURL(game_id):
+        try:
+            gid = str(game_id)
+            return '%s&game_id=%s' % (Config.URL_game, gid)
+        except:
+            log.warning('Could not find game ' + str(gid))
+            
+            
             
 class Teams(Enum):
     Anaheim = 1
@@ -91,3 +100,6 @@ class Positions(Enum):
     Wing = 3
     Defense = 4
     Goalie = 5
+    
+    
+   

@@ -11,7 +11,7 @@ class Roster:
         self.Size = 0
         self.LastUpdateDateTime = time.gmtime(0)
         self.Players = []
-    
+        
 
     def GetAllPlayers(self):
         self.Players = []
@@ -34,7 +34,25 @@ class Roster:
         self.LastUpdateDateTime = datetime.datetime.now()
         self.Size = len(self.Players)
         log.info('Found %d players' % (self.Size))
+    
+    
+    def FindByID(self, pid):
+        returnVal = None
+        if (self.Size > 0):
+            for x in self.Players:
+                if x.PID == pid:
+                    returnVal = x
+        return returnVal
         
+    
+    def FindByName(self, name):
+        returnVal = None
+        if (self.Size > 0):
+            for x in self.Players:
+                if x.Name == name:
+                    returnVal = x
+        return returnVal
+            
     
     def Print(self):
         print('Found %s players' % (self.Size))
