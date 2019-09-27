@@ -6,30 +6,35 @@ from Config import log
 from datetime import datetime
 
 class Goal:
-    def __init__(self, period, ts, scorer, A1, A2, goaltype):
-        raise ValueError('Period can only be 1, 2, 3, or OT.') if (period not in ['1', '2', '3', 'OT']) else False
+    def __init__(self, period, ts, player, A1, A2, goaltype, score):
+        if (player == '' or player is None):
+            raise ValueError('You must supply a Player.') 
+        if (goaltype not in ('ES', 'PP', 'SH')): 
+            raise ValueError('Can only accept ES, PP, or SH.')
+            
         self.Period = period
         self.TimeStamp = ts
-        
-        raise ValueError('You must supply a Goal scorer.') if (scorer == '' or scorer is None) else False
-        self.Scorer = scorer
+        self.Scorer = player
         self.PrimaryAssist = A1
         self.SecondaryAssist = A2
-        
-        if (goaltype not in ('ES', 'PP', 'SH')): raise ValueError('Can only accept ES, PP, or SH.')
         self.GoalType = goaltype
         
         
-class Penalty:
-    def __init__(self, period, ts, player, infraction, IsMajor, IsFighting, FightWon):
-        raise ValueError('Period can only be 1, 2, 3, or OT.') if (period not in ['1', '2', '3', 'OT']) else False
-        self.Period = period
-        self.TimeStamp = ts
         
-        raise ValueError('You must supply a Player.') if (player == '' or player is None) else False
+        self.Score = score
+        
+        
+class Penalty:
+    def __init__(self, period, ts, player, infraction, IsMajor, IsFighting):
+        if (player == '' or player is None):
+            raise ValueError('You must supply a Player.') 
+
+        self.Period = period
+        self.Player = player
+        self.TimeStamp = ts
         self.Infraction = infraction
+        self.IsMajor = IsMajor
         self.IsFighting = IsFighting
-        self.FightWon = FightWon
 
 
 class TeamGameStat:
@@ -44,11 +49,18 @@ class TeamGameStat:
         self.Hits = int(hits)
         self.TOA = datetime.strptime(toa, '%I:%M' )
         self.PIM = int(pim)
-        self.PowerPlay = float(pp.strip('%'))/100
-        self.PenaltyKill = float(pk.strip('%'))/100
+        if (pp == '---'):
+            self.PowerPlay = float(0)
+        else:
+            self.PowerPlay = float(pp.strip('%'))/100
+        if (pk == '---'):
+            self.PenaltyKill = float(0)
+        else:
+            self.PenaltyKill = float(pk.strip('%'))/100
         self.FaceOffsWon = float(fow.strip('%'))/100
         
-        
+
+       
     
 class SeasonStats:
     
